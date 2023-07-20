@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { NavLink, Outlet } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const UsersListPage = () => {
   const users = [1, 2, 3, 4, 5];
@@ -16,7 +16,6 @@ const UsersListPage = () => {
           );
         })}
       </ul>
-      <Outlet />
     </>
   );
 };
